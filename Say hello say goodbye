@@ -1,0 +1,16 @@
+void welcome();
+void end();
+
+int main() {
+	welcome();
+	end();
+}
+
+
+void welcome() {
+	std::cout << "Welcome to my program"<< std::endl;
+}
+  
+void end() {
+	cout << "End of my program"<< std::endl;
+}
